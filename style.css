@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: #1b1b1f;
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.header h1 {
+	font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    color: #cba6f7;
+    letter-spacing: 5px;
+	text-align: center;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+	flex-wrap: wrap;
+}
+
+.link-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background-color: #1e1e1e;
+    border: 2px solid #cba6f7;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+	width: 110px;
+	height: 80px;
+    transition: all 0.3s ease;
+}
+
+.link-card img {
+	width: 32px;
+	height: 32px;
+	filter: brightness(0) invert(1);
+	transition: filter 0.3s ease;
+}
+
+.link-card:hover {
+    background-color: #cba6f7;
+    color: #0f0f0f;
+    transform: scale(1.05);
+}
+
+.link-card:hover img {
+	filter: brightness(0);
+}
+
+.link-card span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#clock {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f38ba8;
+}
+
