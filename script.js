@@ -41,11 +41,12 @@ let currentTrackIndex = 0;
 
 // List of local music files (simulating a directory structure)
 const musicDirectory = [
-    "music/Tevvez - Legend Ψ.mp3",
-    "music/Tristam & Braken - Frame of Mind.mp3",
-    "music/VØJ, Narvent - HEAR ME (The Perfect Girl Phonk Remix).mp3",
-    "music/VØJ, Narvent, KoruSe - Euphoria.mp3",
-    "music/washing machine heart (slowed).mp3"
+//    "music/Tevvez - Legend Ψ.mp3",
+//    "music/Tristam & Braken - Frame of Mind.mp3",
+//    "music/VØJ, Narvent - HEAR ME (The Perfect Girl Phonk Remix).mp3",
+//    "music/VØJ, Narvent, KoruSe - Euphoria.mp3",
+//    "music/washing machine heart (slowed).mp3",
+    "music/Geoxor @ Amethyst 2023 MIX.mp3"
 ];
 
 // Function to load and play a track
