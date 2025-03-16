@@ -115,6 +115,7 @@ body {
     color: #e0d7ff;
     box-shadow: 0 4px 15px rgba(169, 139, 214, 0.3);
     margin: 20px auto; /* Center the player */
+	margin-top: 50px;
 }
 
 .player-controls {
