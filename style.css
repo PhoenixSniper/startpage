@@ -101,3 +101,55 @@ body {
     transition: width 0.5s ease-in-out;
 }
 
+.music-player {
+    background-color: #2e2b3a;
+    border: 2px solid #a98bd6;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    color: #e0d7ff;
+    box-shadow: 0 4px 15px rgba(169, 139, 214, 0.3);
+    margin: 20px auto; /* Center the player */
+}
+
+.player-controls {
+    display: flex;
+    gap: 10px;
+}
+
+#playPauseBtn,
+#prevBtn,
+#nextBtn {
+    background: none;
+    border: none;
+    color: #a98bd6;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#playPauseBtn:hover,
+#prevBtn:hover,
+#nextBtn:hover {
+    transform: scale(1.2);
+}
+
+#volumeControl {
+    width: 100px;
+    accent-color: #a98bd6;
+}
+
+#trackName {
+    text-align: center;
+    font-size: 14px;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
