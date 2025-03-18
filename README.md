@@ -6,8 +6,5 @@
 ---
 
 ## Video Showcase
-<video width="800" controls>
-  <source src="Showcase/Showcase.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/809828a5-41ee-43a8-ab1c-68477721d62f
 
